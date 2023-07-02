@@ -200,17 +200,8 @@ console.log(filteredFood);
 */
 
 //CODE HERE
-function filterByProperty(property, number, type) {
-    let filteredArray = [];
-  
-    if (type === "above") {
-      filteredArray = foodArr.filter(food => food[property] > number);
-    } else if (type === "below") {
-      filteredArray = foodArr.filter(food => food[property] < number);
-    }
-  
-    return filteredArray;
-  }
+
+
 /*
     Invoke the `filterByProperty` function passing
     in a value for each paramter.
@@ -219,5 +210,3 @@ function filterByProperty(property, number, type) {
 */
 
 //CODE HERE
-const filteredFoodsAboveRating = filterByProperty("popularity", 95, "above");
-console.log(filteredFoodsAboveRating);
